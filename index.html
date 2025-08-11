@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Styling and JS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Advanced Styling & JavaScript</h1>
+  </header>
+
+  <main>
+    <!-- Step 2: Interactive Quiz -->
+    <section id="quiz" class="card">
+      <h2>Interactive Quiz</h2>
+      <div id="quiz-container"></div>
+      <button onclick="submitQuiz()">Submit</button>
+      <p id="quiz-result"></p>
+    </section>
+
+    <!-- Step 3: API Data Fetch -->
+    <section id="api" class="card">
+      <h2>Random Joke Generator</h2>
+      <button onclick="fetchJoke()">Get a Joke</button>
+      <p id="joke"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Advanced JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
